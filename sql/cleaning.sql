@@ -1,0 +1,3 @@
+-- DELETE ROWS WITH DURATION OF 0 MINUTES
+DELETE FROM spotify
+WHERE duration_min = 0;
